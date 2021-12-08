@@ -3,7 +3,7 @@ on:
   - push
 jobs:
   dire_bonjour:
-    runs-on: [self-hosted, linux]
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
       - run: ls -l 
