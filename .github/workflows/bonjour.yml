@@ -3,6 +3,12 @@ on:
   - push
 jobs:
   dire_bonjour:
+    container:
+      image: gitpod-io/workspace-images
+      env:
+        NODE_ENV: development
+      options: --user=root
+
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
