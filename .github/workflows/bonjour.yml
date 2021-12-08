@@ -13,5 +13,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: ls -l 
-      - run: sudo apt install cowsay
       - run: cat README.md | cowsay
