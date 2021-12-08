@@ -4,7 +4,7 @@ on:
 jobs:
   dire_bonjour:
     container:
-      image: gitpod-io/workspace-images
+      image: gitpod/workspace-full
       env:
         NODE_ENV: development
       options: --user=root
