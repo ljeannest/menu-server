@@ -10,6 +10,6 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '11'
-      - run: mvn compile
+      - run: mvn clean
       - run: mvn package
 
