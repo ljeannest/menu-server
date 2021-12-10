@@ -12,5 +12,4 @@ jobs:
           java-version: '11'
       - run: mvn compile
       - run: mvn package
-      - uses: actions/upload-artifact
-      
+
