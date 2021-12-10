@@ -12,4 +12,7 @@ jobs:
           java-version: '11'
       - run: mvn clean
       - run: mvn package
-
+      - uses: actions/upload-artifact@v1
+        with:
+          name: menu-server
+          path: target/menu-server.jar
